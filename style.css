@@ -1,0 +1,193 @@
+/* .box1 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: absolute;
+  animation: negees-nuguud-shiljih 2s ease-in-out infinite;
+}
+@keyframes negees-nuguud-shiljih {
+  from {
+    left: 0;
+  }
+  to {
+    right: 500px;
+  }
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: absolute;
+  animation: negees-nuguud-ungu-shiljih 2s ease-in-out infinite;
+  margin-top: 120px;
+}
+@keyframes negees-nuguud-ungu-shiljih {
+  from {
+    background-color: antiquewhite;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: absolute;
+  animation: olon-ungu-soligdoh 5s ease-in-out infinite;
+  margin-top: 240px;
+}
+@keyframes olon-ungu-soligdoh {
+  0% {
+    background-color: aqua;
+  }
+  25% {
+    background-color: yellowgreen;
+  }
+  50% {
+    background-color: violet;
+  }
+  100% {
+    background-color: blue;
+  }
+  from {
+    left: 0;
+  }
+  to {
+    right: 500px;
+  }
+}
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: absolute;
+  animation-name: animation-ehleh;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  margin-top: 360px;
+}
+@keyframes animation-ehleh {
+  0% {
+    background-color: #fff;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: #804646;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: #183348;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: #9e6b88;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: #c74545;
+    left: 0px;
+    top: 0px;
+  }
+}
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: absolute;
+  animation-name: animation-he-togluulah;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  margin-top: 480px;
+}
+@keyframes animation-he-togluulah {
+  0% {
+    background-color: #fff;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: #804646;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: #183348;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: #9e6b88;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: #c74545;
+    left: 0px;
+    top: 0px;
+  }
+} */
+.box6 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin-top: 600px;
+  transition: all 2s;
+  position: absolute;
+  /* animation-name: dasgal1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite; */
+}
+.box6:hover {
+  transform: translate(50px, 20px);
+  background-color: red;
+}
+/* @keyframes dasgal1 {
+  from {
+    transform: translate(0);
+  }
+  to {
+   transform: translate(50px, 30px);
+  }
+} */
+
+.button1 {
+  transition: all 2s;
+}
+.button1:hover {
+  background-color: #9e6b88;
+  transform: rotate(360deg);
+}
+
+.box7 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(70, 117, 158);
+  transition: all 2s;
+}
+.box7:hover {
+  transform: scale(1.2);
+  background-color: #9e6b88;
+}
+.das4 {
+  transform: skew(30deg);
+}
+.das4:hover {
+  transform: none;
+}
+.box8 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(113, 39, 54);
+  transition: all 1s;
+}
+.box8:hover {
+  translate: 0 -10px;
+  scale: 1.1;
+  rotate: 10deg;
+}
